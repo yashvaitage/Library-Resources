@@ -1,0 +1,552 @@
+/* ************************Nav-Bar************************ */
+.navbar {
+  margin: 0%;
+  padding: 30px;
+}
+
+.header {
+  margin: 0%;
+}
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(231, 225, 225);
+  font-size: 20px;
+}
+
+nav div {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+.navContent {
+  padding: 10px;
+}
+
+nav ul {
+  float: right;
+  clear: both;
+}
+
+.header-button {
+  background-color: rgba(0, 0, 0, 0.993);
+  border: 1px solid rgb(32, 31, 31);
+  color: #fff;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  text-decoration: none;
+}
+
+/* ************************Login Page************************ */
+.body {
+  background: url(../img/lib.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+  height: 721px;
+  width: 100%;
+  padding: 40px;
+  margin: auto;
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.89);
+  border-radius: 0.625rem;
+}
+.login h2 {
+  margin: 0 0 1.875rem;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-family: "Yusei Magic", sans-serif;
+}
+.login-text {
+  position: relative;
+}
+.login-text input {
+  width: 100%;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.062rem;
+  margin-bottom: 1.875rem;
+  border: none;
+  border-bottom: 0.065rem solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-text label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label,
+.box .inputBox input:not([value=""]) ~ label {
+  top: -1.125rem;
+  left: 0;
+  color: #03a9f4;
+  font-size: 0.75rem;
+}
+.login input[type="submit"] {
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  border-radius: 0.312rem;
+  font-size: 1rem;
+}
+/* .box input[type="submit"]:hover {
+    background-color: rgb(253, 0, 0);
+  } */
+
+/* ************************Sign Up************************ */
+
+.signup {
+  margin-top: 150px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30rem;
+  padding: 2.5rem;
+  margin-bottom: 20%;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.89);
+  border-radius: 0.625rem;
+}
+
+.signup h2 {
+  color: #fff;
+}
+
+#Category {
+  width: 50%;
+  color: rgb(153, 148, 148);
+  text-align: center;
+  background: transparent;
+  border: transparent;
+}
+
+.send-button :hover {
+  background-color: rgba(0, 0, 0, 0.747);
+  border: 1px solid #fff;
+  color: #fff;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  text-decoration: none;
+}
+
+/* ************************About Us************************ */
+.about {
+  background: url(../img/book6.jpg);
+  background-size: cover;
+  height: 860px;
+  width: 100%;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+/* ************************Footer Start************************ */
+.footer {
+  height: 200px;
+  padding-top: 40px;
+  background-color: #c2503f;
+}
+.footer ul {
+  list-style: none;
+}
+
+.footer-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #4284df;
+}
+
+/* address */
+.address-map {
+  text-align: center;
+  font-family: "Yusei Magic", sans-serif;
+  margin-top: 10px;
+}
+.address {
+  display: inline-block;
+  text-align: justify;
+  padding: 20px;
+  width: 100%;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+/* ************************Index Home Page************************ */
+.slider img {
+  width: 100%;
+  border: 0;
+  height: 550px;
+}
+
+/* text format */
+.text {
+  text-align: center;
+}
+.text-bottom {
+  padding-right: 20%;
+  padding-left: 20%;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 20px;
+  color: rgb(2, 3, 34);
+  padding-bottom: 20px;
+}
+.text h1 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-family: "Alegreya", serif;
+}
+.text hr {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* ************************ Contact-Us ************************ */
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.contact3 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+.contact3 h1,
+.contact3 h2,
+.contact3 h3,
+.contact3 h4,
+.contact3 h5,
+.contact3 h6 {
+  color: #3e4555;
+}
+
+.contact3 .font-weight-medium {
+  font-weight: 500;
+}
+
+.contact3 .card-shadow {
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.contact3 .btn-danger-gradiant {
+  background: #ff4d7e;
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    #ff4d7e 0%,
+    #ff6a5b 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff4d7e),
+    to(#ff6a5b)
+  );
+  background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+  background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+  background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+}
+
+.contact3 .btn-danger-gradiant:hover {
+  background: #ff6a5b;
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    #ff6a5b 0%,
+    #ff4d7e 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff6a5b),
+    to(#ff4d7e)
+  );
+  background: -webkit-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+  background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+  background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
+}
+
+.textcenter {
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+  font-size: 0;
+}
+
+/* body {
+    background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+    font-family: 'Rubik', sans-serif;
+    background: #455A64;
+    height: 100 !important
+} */
+
+.container-fluid {
+  overflow: hidden;
+  margin-top: 250px;
+  background: #262626;
+  color: #627482 !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.company-info {
+  padding-top: 20px;
+  width: 60%;
+  text-align: justify;
+}
+small {
+  font-size: calc(
+    12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+.bold-text {
+  color: #989c9e !important;
+}
+
+.mt-55 {
+  margin-top: calc(
+    50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+h3 {
+  font-size: calc(
+    34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+.social {
+  font-size: 21px !important;
+}
+
+.rights {
+  font-size: calc(
+    10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+.copyright-text {
+  text-align: center;
+}
+
+/* ************************ Forget-Password ************************ */
+.forget {
+  background: url(../img/lock.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+  height: 721px;
+  width: 100%;
+  padding: 40px;
+  margin: auto;
+}
+
+/* ************************ Search Bar ************************ */
+.srch {
+  width: 20%;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+.clear {
+  clear: both;
+}
+
+/* ************************ Profile ************************ */
+
+.profile {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 7%;
+  margin-bottom: 3%;
+  display: inline-block;
+  height: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.profile h1 {
+  background-color: #4c93d3;
+  width: 930px;
+  height: 70px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+h4 {
+  margin: 0;
+  padding: 5px;
+}
+
+.left-column {
+  float: left;
+  width: 450px;
+  padding-left: 110px;
+  padding-top: 25px;
+  color: #2e150d;
+  text-align: left;
+}
+
+.right-column {
+  float: right;
+  color: #2e150d;
+  padding-right: 80px;
+  padding-top: 25px;
+  text-align: justify;
+}
+
+/* .profile-background{
+    background: url(../img/profile.jpg);
+    background-size: cover;
+    height: 860px;
+    width: 100%;
+    
+} */
+
+/* ************************ Edit Profile ************************ */
+.editprofile {
+  background-color: #4c93d3;
+  width: 570px;
+  height: 50px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+label {
+  display: block;
+  position: relative;
+  margin: 40px 0px;
+}
+.label-txt {
+  position: absolute;
+  top: -1.6em;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  color: rgb(120, 120, 120);
+  transition: ease 0.3s;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+
+
+.line-box {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: #bcbcbc;
+}
+
+.line {
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #09580d;
+  transition: ease 0.5s;
+}
+
+.input:focus + .line-box .line {
+  width: 100%;
+}
+
+.label-active {
+  top: -3em;
+}
+
+button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: rgb(0, 102, 255);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+button:hover {
+  background: #d4c8ba;
+  color: #ffffff;
+}
+
+.profile-background {
+  background: url(../img/profile.jpg);
+  background-size: cover;
+  height: 1000px;
+  margin: auto;
+}
+
+.profile-box {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.918);
+  border-radius: 0.625rem;
+}
+
+/* ************************ All Books ************************ */
+.image-part {
+  list-style: none;
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+  padding-inline-start: 0px;
+}
+
+/* ************************ ADMIN_HOME_PAGE ************************ */
+
+.background {
+  background: url(../img/home.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+  height: 700px;
+  width: 100%;
+  padding-top: 40px;
+  margin: auto;
+}
+
+.card {
+  margin: 5px;
+}
