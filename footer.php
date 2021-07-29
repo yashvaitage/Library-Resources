@@ -4,15 +4,15 @@
             <div class="col-11">
                 <div class="row ">
                     <div class="col-xl-6 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
-                        <h4 class="text-muted mb-md-0 mb-5 bold-text">IMED Library Resources</h3>
-                            <p class="company-info">IMED Library Resourses is part of organization which helps out
+                        <h4 class="text-muted mb-md-0 mb-5 bold-text">Library Management System</h3>
+                            <p class="company-info"> Library Resourses is part of organization which helps out
                                 to see the knowledge and research on current technologies with study material for
                                 Students and Professors.</P>
                     </div>
                     <div class="col-xl-3 col-md-4 col-sm-4 col-12">
                         <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
                         <ul class="list-unstyled">
-                            <a href="index.php">
+                            <a href="main.php"> 
                                 <li>Home</li>
                             </a>
                             <a href="books.php">
@@ -25,13 +25,11 @@
                                 <li>Contact Us</li>
                             </a>
                         </ul>
-                    </div>
+                    </div> 
                     <div class="col-xl-3 col-md-3 col-sm-3 col-12">
                         <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
-                        <p class="mb-1">Bharati Vidyapeeth Educational Complex,
-                            More Vidyalaya Campus,</p>
-                        <p>Erandwane, Paud Road, Pune – 411038
-                            Maharashtra, INDIA</p>
+                        <p class="mb-1">MODERN COLLEGE OF ENGINEERING,
+                        1186/A, <br> Off J.M. Road, Shivaji nagar, Pune, Maharashtra 411005</p>
                     </div>
                 </div>
                 <div class="row ">

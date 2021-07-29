@@ -1,3 +1,12 @@
+<?php
+session_start();
+if (!isset($_SESSION['login_user'])) {
+    echo "<script>
+    alert('Please login first!');
+    window.location.href='index.php'; 
+    </script>";
+}else{
+?>
 <head>
     <title>Books</title>
 </head>
@@ -69,4 +78,5 @@
             </div>
         </div>
     </div>
+    <?php } ?>
     <?php include("footer.php"); ?>

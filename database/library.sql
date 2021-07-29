@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 07, 2021 at 08:46 AM
+-- Generation Time: Jul 15, 2021 at 07:09 PM
 -- Server version: 10.4.19-MariaDB
--- PHP Version: 8.0.7
+-- PHP Version: 7.4.20
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -40,38 +40,10 @@ CREATE TABLE `adminlogin` (
 
 INSERT INTO `adminlogin` (`adminid`, `email`, `password`, `updated`) VALUES
 (35, 'hemchandra@gmail.com', 'e0fe06cb99c845e102e5cb89d415419f', '2021-06-22 13:41:29'),
-(36, 'hemchandra@gmail.com', 'e0fe06cb99c845e102e5cb89d415419f', '2021-06-22 14:17:27'),
-(37, 'hemchandra@gmail.com', 'e0fe06cb99c845e102e5cb89d415419f', '2021-06-23 03:30:43'),
-(38, 'hemchandra@gmail.com', 'e0fe06cb99c845e102e5cb89d415419f', '2021-06-23 14:39:13'),
-(39, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-23 16:23:18'),
-(40, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-27 17:46:09'),
-(41, 'nileshmahajan@gmail.com', '7b4481e1edb28ca78224c999dde58c4e', '2021-06-28 04:03:28'),
-(42, 'nileshmahajan@gmail.com', 'ebaa3ee59704e08e648cf6346c8d26c5', '2021-06-28 04:03:49'),
-(43, 'nileshmahajan@gmail.com', '7b4481e1edb28ca78224c999dde58c4e', '2021-06-28 04:04:04'),
-(44, 'nileshmahajan@gmail.com', '2f2806f817c45f0314b76bcac92fd063', '2021-06-28 04:04:18'),
-(45, 'nileshmahajan@gmail.com', 'ebaa3ee59704e08e648cf6346c8d26c5', '2021-06-28 04:04:35'),
-(46, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-28 04:04:55'),
-(47, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-28 06:35:01'),
-(48, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-28 07:48:48'),
-(49, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-28 08:00:01'),
-(50, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-28 08:04:10'),
-(51, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-28 08:04:59'),
-(52, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-28 08:07:04'),
-(53, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-28 08:08:58'),
-(54, 'hemchandra@gmail.com', 'e0fe06cb99c845e102e5cb89d415419f', '2021-06-28 08:10:00'),
-(55, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-28 08:20:07'),
-(56, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-28 08:21:59'),
-(57, 'hemchandra@gmail.com', 'e0fe06cb99c845e102e5cb89d415419f', '2021-06-28 08:59:41'),
-(58, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-28 09:00:00'),
-(59, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-28 09:11:26'),
-(60, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-28 10:43:21'),
-(61, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-29 11:15:25'),
-(62, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-29 11:28:01'),
-(63, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-30 07:18:25'),
-(64, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-06-30 12:57:35'),
-(65, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-07-01 04:11:36'),
-(66, 'nileshmahajan@gmail.com', '3d7f1519654de9db7a5090ad95d5d01e', '2021-07-01 08:22:44'),
-(67, 'apumondal0097@gmail.com', 'b9f0e438afb958a489b0b601b46b4f27', '2021-07-01 08:24:13');
+(68, 'jdoe@gmail.com', '0e7517141fb53f21ee439b355b5a1d0a', '2021-07-15 13:34:51'),
+(69, 'jdoe@gmail.com', '0e7517141fb53f21ee439b355b5a1d0a', '2021-07-15 13:41:14'),
+(70, 'jdoe@gmail.com', '0e7517141fb53f21ee439b355b5a1d0a', '2021-07-15 13:42:25'),
+(71, 'jdoe@gmail.com', '0e7517141fb53f21ee439b355b5a1d0a', '2021-07-15 16:50:47');
 
 -- --------------------------------------------------------
 
@@ -96,7 +68,8 @@ CREATE TABLE `adminsignup` (
 
 INSERT INTO `adminsignup` (`adminid`, `name`, `email`, `phone`, `work`, `password`, `status`, `updated`) VALUES
 (2, 'Hemchandra Padlikar', 'hemchandra@gmail.com', '1236547890', 'Jr. Asst. Librarian', 'e0fe06cb99c845e102e5cb89d415419f', 'active', '2021-06-30 15:56:06'),
-(3, 'Prof. Nilesh Mahajan', 'nileshmahajan@gmail.com', '9764157232', 'Librarian', '3d7f1519654de9db7a5090ad95d5d01e', 'active', '2021-06-30 15:56:09');
+(3, 'Prof. Nilesh Mahajan', 'nileshmahajan@gmail.com', '9764157232', 'Librarian', '3d7f1519654de9db7a5090ad95d5d01e', 'active', '2021-06-30 15:56:09'),
+(4, 'John Doe', 'jdoe@gmail.com', '9876543210', 'Librarian', '0e7517141fb53f21ee439b355b5a1d0a', 'active', '2021-07-15 13:33:35');
 
 -- --------------------------------------------------------
 
@@ -118,10 +91,7 @@ CREATE TABLE `computer` (
 --
 
 INSERT INTO `computer` (`id`, `bookname`, `author`, `edition`, `file`, `updated`) VALUES
-(1, 'python', 'guido van rossam', '1st', '', '2021-06-17 11:01:34'),
-(10, 'C - Language', 'Denis Ritchie', '1st', '', '2021-06-27 17:23:32'),
-(12, 'Linux Operating System', 'Linus Torlwands', '2nd\r\n', '', '2021-06-27 17:25:09'),
-(16, 'Nishant Vaitage', 'asdf', '12', '', '2021-06-30 15:12:19');
+(21, 'Lets C', 'Yeshwant Kanetkar', '5', 'books/computer/Hariom Jangid (soft skill laboratory).pdf', '2021-07-15 13:48:27');
 
 -- --------------------------------------------------------
 
@@ -145,7 +115,8 @@ CREATE TABLE `contact` (
 INSERT INTO `contact` (`id`, `sname`, `email`, `phoneno`, `message`, `updated`) VALUES
 (32, 'ashish', 'ashish@gmail.com', '9660502310', 'Please send me more python books', '2021-06-28 09:05:05'),
 (33, 'Harsh', 'harsh@gmail.com', '7387352531', 'Please provide me previous end term exam papers', '2021-06-29 11:12:42'),
-(34, 'Apu Mondal', 'apumondal0097@gmail.com', '8250464580', 'Please provide me 4 billion$', '2021-07-01 08:21:44');
+(34, 'Apu Mondal', 'apumondal0097@gmail.com', '8250464580', 'Please provide me 4 billion$', '2021-07-01 08:21:44'),
+(35, 'John Snow', 'jsnow@got.com', '9765543120', 'King of Winnter Fall', '2021-07-15 16:56:21');
 
 -- --------------------------------------------------------
 
@@ -204,8 +175,7 @@ CREATE TABLE `management` (
 --
 
 INSERT INTO `management` (`id`, `bookname`, `author`, `edition`, `file`, `updated`) VALUES
-(1, 'management information system', 'xyz', '1st', '', '2021-06-15 18:19:59'),
-(7, 'abc', 'xyz', '2nd', '', '2021-06-23 04:20:46');
+(11, 'QA Management ', 'Delta', '6', 'books/management/Hariom Jangid (soft skill laboratory).pdf', '2021-07-15 16:52:08');
 
 -- --------------------------------------------------------
 
@@ -221,6 +191,7 @@ CREATE TABLE `signup` (
   `email` varchar(200) NOT NULL,
   `phone` varchar(200) NOT NULL,
   `pass` varchar(200) NOT NULL,
+  `role` varchar(255) NOT NULL,
   `status` varchar(255) NOT NULL,
   `updated` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -229,10 +200,12 @@ CREATE TABLE `signup` (
 -- Dumping data for table `signup`
 --
 
-INSERT INTO `signup` (`id`, `name`, `prnno`, `course`, `email`, `phone`, `pass`, `status`, `updated`) VALUES
-(1, 'Ashish Kumar', 1903100601, 'MCA', 'ashish@gmail.com', '7004295272', '7b69ad8a8999d4ca7c42b8a729fb0ffd', 'active', '2021-07-01 04:03:51'),
-(2, 'Nishant Vaitage', 1903100134, 'MCA', 'nishantvaitage7125@gmail.com', '8788850239', '048a338d68b1b0ea9f2fc6004763d019', 'active', '2021-07-01 08:24:58'),
-(26, 'Nishant Mondal', 1903100135, 'MCA', 'apumondal0097@gmail.com', '8250464580', 'b9f0e438afb958a489b0b601b46b4f27', 'active', '2021-07-01 08:25:00');
+INSERT INTO `signup` (`id`, `name`, `prnno`, `course`, `email`, `phone`, `pass`, `role`, `status`, `updated`) VALUES
+(1, 'Ashish Kumar', 1903100601, 'MCA', 'ashish@gmail.com', '7004295272', '7b69ad8a8999d4ca7c42b8a729fb0ffd', '', 'active', '2021-07-01 04:03:51'),
+(2, 'Nishant Vaitage', 1903100134, 'MCA', 'nishantvaitage7125@gmail.com', '8788850239', '048a338d68b1b0ea9f2fc6004763d019', '', 'active', '2021-07-01 08:24:58'),
+(26, 'Nishant Mondal', 1903100135, 'MCA', 'apumondal0097@gmail.com', '8250464580', 'b9f0e438afb958a489b0b601b46b4f27', '', 'active', '2021-07-01 08:25:00'),
+(27, 'lucifer', 123456, 'MCA', 'lucifer@devil.com', '987654321', 'd81e8213797f23651cf57e59b4bd8da0', '', 'active', '2021-07-11 15:37:50'),
+(28, 'admin-lib', 101010, 'MCA', 'adminlib@lib.com', '987654210', 'f98c5f7858bd08b1eaf031241f8f0dbc', 'admin', 'active', '2021-07-13 17:03:24');
 
 -- --------------------------------------------------------
 
@@ -373,7 +346,35 @@ INSERT INTO `userlogin` (`id`, `prnno`, `password`, `updated`) VALUES
 (105, '1903100134', '048a338d68b1b0ea9f2fc6004763d019', '2021-07-01 04:12:37'),
 (106, '1903100134', '048a338d68b1b0ea9f2fc6004763d019', '2021-07-01 04:13:44'),
 (107, '1903100135', 'b9f0e438afb958a489b0b601b46b4f27', '2021-07-01 08:18:21'),
-(108, '1903100134', '048a338d68b1b0ea9f2fc6004763d019', '2021-07-01 08:24:46');
+(108, '1903100134', '048a338d68b1b0ea9f2fc6004763d019', '2021-07-01 08:24:46'),
+(109, '12345', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-11 14:39:29'),
+(110, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-11 14:40:31'),
+(111, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-11 14:50:06'),
+(112, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-11 15:10:40'),
+(113, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-11 15:22:25'),
+(114, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-13 10:02:27'),
+(115, '123456', 'f5c2db1f19bdde37e740e86b70d0534f', '2021-07-13 10:09:13'),
+(116, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-13 10:09:52'),
+(117, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-13 10:11:46'),
+(118, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-13 10:13:03'),
+(119, '101010', 'f98c5f7858bd08b1eaf031241f8f0dbc', '2021-07-13 17:11:01'),
+(120, '101010', 'f98c5f7858bd08b1eaf031241f8f0dbc', '2021-07-13 17:13:44'),
+(121, '101010', 'f98c5f7858bd08b1eaf031241f8f0dbc', '2021-07-13 17:15:01'),
+(122, '101010', '21232f297a57a5a743894a0e4a801fc3', '2021-07-15 12:58:36'),
+(123, '101010', 'f98c5f7858bd08b1eaf031241f8f0dbc', '2021-07-15 12:58:58'),
+(124, '101010', 'f98c5f7858bd08b1eaf031241f8f0dbc', '2021-07-15 13:23:55'),
+(125, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-15 13:44:54'),
+(126, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-15 14:03:19'),
+(127, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-15 14:20:48'),
+(128, '123456', '961241dab0a6fe10461af5516697ae5b', '2021-07-15 14:22:29'),
+(129, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-15 14:23:44'),
+(130, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-15 14:44:45'),
+(131, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-15 15:53:24'),
+(132, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-15 15:54:06'),
+(133, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-15 15:58:47'),
+(134, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-15 16:08:28'),
+(135, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-15 16:10:15'),
+(136, '123456', 'd81e8213797f23651cf57e59b4bd8da0', '2021-07-15 16:42:53');
 
 --
 -- Indexes for dumped tables
@@ -448,25 +449,25 @@ ALTER TABLE `userlogin`
 -- AUTO_INCREMENT for table `adminlogin`
 --
 ALTER TABLE `adminlogin`
-  MODIFY `adminid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
+  MODIFY `adminid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
 
 --
 -- AUTO_INCREMENT for table `adminsignup`
 --
 ALTER TABLE `adminsignup`
-  MODIFY `adminid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `adminid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `computer`
 --
 ALTER TABLE `computer`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `contact`
 --
 ALTER TABLE `contact`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT for table `journal`
@@ -484,13 +485,13 @@ ALTER TABLE `magazine`
 -- AUTO_INCREMENT for table `management`
 --
 ALTER TABLE `management`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `signup`
 --
 ALTER TABLE `signup`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT for table `thesis`
@@ -502,7 +503,7 @@ ALTER TABLE `thesis`
 -- AUTO_INCREMENT for table `userlogin`
 --
 ALTER TABLE `userlogin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=109;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=137;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

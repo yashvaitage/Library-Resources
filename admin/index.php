@@ -1,5 +1,10 @@
-<?php include './header.php';
+<?php
+include './header.php';
 include("config.php");
+session_start();
+if (!isset($_SESSION['login_admin'])) {
+    header("Location:adminlogin.php");
+}else{
 // if (isset($_POST['add'])) {
 //     $name = $_POST['bookname'];
 //     $author = $_POST['author'];
@@ -16,7 +21,7 @@ include("config.php");
 //                       window.location.href='index.php';</script>";
 //     }
 // }
-// ?>
+//
 
 ?>
 <div class="background">
@@ -69,7 +74,6 @@ include("config.php");
         </div>
     </div>
 
-
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -87,10 +91,29 @@ include("config.php");
                         $author = $_POST['author'];
                         $edition = $_POST['edition'];
                         $department = $_POST['department'];
-                        // $upload = $_POST['upload'];
+                        $pdf = rand();
+                        $targetfolder = "books/$department/";
+                        $targetfolder = $targetfolder . basename( $_FILES['file']['name']);
+                        
+                       if(move_uploaded_file($_FILES['file']['tmp_name'], $targetfolder))
+                       
+                        {
+                       
+                        echo "The file ". basename( $_FILES['file']['name']). " is uploaded";
+                        echo "<script>alert('File uploaded!');
+                        window.location.ref='index.php';</script>";
+                       
+                        }
+                       
+                        else {
+                       
+                            echo "<script>alert('Something wents wrong!');
+                            window.location.ref='index.php';</script>";
+                       
+                        }
+                    
 
-
-                        $query = mysqli_query($con, "INSERT INTO `$department` (`bookname`,`author`,`edition`) VALUES ('$name','$author','$edition')");
+                        $query = mysqli_query($con, "INSERT INTO `$department` (`bookname`,`author`,`edition`,`file`) VALUES ('$name','$author','$edition','$targetfolder')");
                     }
                     ?>
                     <form action="" method="POST" enctype="multipart/form-data">
@@ -118,7 +141,7 @@ include("config.php");
                             <option value="thesis">Thesis</option>
                         </select><br><br>
 
-                        <input type="file" name="upload" value="Browse">
+                        <input type="file" name="file" value="Browse">
 
                 </div>
                 <div class="modal-footer">
@@ -130,4 +153,7 @@ include("config.php");
         </div>
     </div>
 
-    <?php include("footer.php"); ?>
+    <?php
+ include("footer.php");
+                }
+ ?>

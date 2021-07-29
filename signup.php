@@ -40,7 +40,7 @@
 
                    
                     if ($error==0) {
-                        $query = mysqli_query($con, "INSERT INTO `signup`( `name`, `prnno`,`course`, `email`, `phone`, `pass`,`status`) VALUES ('$name','$prnno','$course','$email','$phone','$pass','activate')");
+                        $query = mysqli_query($con, "INSERT INTO `signup`( `name`, `prnno`,`course`, `email`, `phone`, `pass`,`status`) VALUES ('$name','$prnno','$course','$email','$phone','$pass','active')");
                         echo "<div class='text-success'> Register Successful </div>";
                     } else {
                         echo "<div class='text-danger'> Registration Failed </div>";
@@ -83,7 +83,7 @@
                             title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" -->
         <div style=float:right>
             <li class="nav-item mr-2 list-unstyled">
-                <a class="nav-link btn btn-outline-light btn-lg text-light" href="login.php">Login</a>
+                <a class="nav-link btn btn-outline-light btn-lg text-light" href="index.php">Login</a>
             </li>
         </div>
     </div>

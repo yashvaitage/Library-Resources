@@ -74,8 +74,7 @@
         </div>
         <div style=float:right>
             <li class="nav-item mr-2 list-unstyled">
-                <a class="nav-link btn btn-outline-light btn-lg text-light" href="adminsignup.php">Admin Sign-Up</a><br>
-                <a class="nav-link btn btn-outline-light btn-lg text-light" href="../login.php">User Login</a>
+                <a class="nav-link btn btn-outline-light btn-lg text-light" href="../index.php">User Login</a>
             </li>
         </div>
 

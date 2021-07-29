@@ -8,17 +8,18 @@
 
     <?php
     include("config.php");
-
-    $query = mysqli_query($con, "SELECT * from `signup` where `prnno`='$_SESSION[login_user]' ");
+if(isset($_SESSION['login_user'])){
+    
+    $query = mysqli_query($con, "SELECT * from `signup` where `prnno`='$_SESSION[login_user]'");
     if ($query) {
 
-        echo "<div class='left-column'>";
-        echo "<h4>Name :</h4><br>";
-        echo "<h4>PRN Number   :</h4><br>";
-        echo "<h4>Course       :</h4><br>";
-        echo "<h4>Mobile Number:</h4><br>";
-        echo "<h4>Email Address:</h4><br>";
-        echo "</div class='clear'>";
+        echo "<div class='left-column'>
+        <h4>Name :</h4><br>
+        <h4>PRN Number   :</h4><br>
+        <h4>Course       :</h4><br>
+        <h4>Mobile Number:</h4><br>
+        <h4>Email Address:</h4><br>
+        </div class='clear'>";
 
 
         while ($row = mysqli_fetch_assoc($query)) {
@@ -41,6 +42,8 @@
         }
         echo "</div>";
     }
+}
+  
     ?>
 </div>
 

@@ -68,8 +68,7 @@ if (isset($_POST['submit'])) {
             echo "</td>";
             echo "<td>";
             // echo $row['action'];
-            echo "<a href='bookdetails.php' class='btn btn-primary'>View</a>\t";
-            echo "<a href='bookdetails.php' class='btn btn-primary'>Download</a>";
+            echo "<a href='".$row['file']."' class='btn btn-primary'>View</a>\t";
             echo "</td>";
             echo "</tr>";
         }
@@ -113,8 +112,7 @@ if (isset($_POST['submit'])) {
         echo "</td>";
         echo "<td>";
         // echo $row['action'];
-        echo "<a href='bookdetails.php' class='btn btn-primary'>View</a>\t";
-        echo "<a href='bookdetails.php' class='btn btn-primary'>Download</a>";
+        echo "<a href='admin/".$row['file']."' class='btn btn-primary'>View</a>\t";
         echo "</td>";
         echo "</tr>";
     }

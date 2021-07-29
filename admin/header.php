@@ -23,13 +23,16 @@
     <!-- navbar starts -->
     <?php
     session_start();
+    if (isset($_SESSION['role'])) {
+        header('Location:adminlogin.php');
+    }
     ?>
     <div>
         <nav class="navbar-expand-lg navbar-dark header fixed-top">
             <div class="navContent">
 
                 <!-- Navbar content -->
-                <a class="navbar-brand" href="#"><img src="../assets/img/logo.png" class="rounded-circle" alt="Logo" title="This is logo" width="40" height="40"> <b class="title">IMED Library Resources</b> </a>
+                <a class="navbar-brand" href="#"><img src="../assets/img/logo.png" class="rounded-circle" alt="Logo" title="This is logo" width="40" height="40"> <b class="title">Library Management System</b> </a>
                 
                 <ul class="navbar-nav ml-auto">
                     <li><a class="nav-link" href="index.php">
@@ -48,12 +51,15 @@
                             <button type="button" class="btn header-button  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
                             </button>
                             <div class="dropdown-menu mr-4">
-                            
-                                <a class="dropdown-item" selected disabled value=""><?php echo $_SESSION['login_admin']; ?></a>
-                                <a class="dropdown-item" href="profile.php">My Profile</a>
-                                <a class="dropdown-item" href="editprofile.php">Edit Profile</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a>
+                            <?php
+                            if (isset($_SESSION['role'])) {
+                                echo '<a class="dropdown-item" href="../index.php"><i class="fa fa-sign-out fa-lg"></i> Login</a>';
+                            }else{
+                                echo '<a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a>';
+                               
+                            }
+                            ?>
+                                
                             </div>
                         </div>
                     </li>

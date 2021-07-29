@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,23 +17,25 @@
     <link rel="icon" href="assets/img/logo.png">
     <title>Library Resources</title>
 </head>
-
 <body>
-    <!-- navbar starts -->
-    <?php
+<?php 
     session_start();
-    ?>
+    if (!isset($_SESSION['login_user'])) {
+        header('index.php');
+    }
+?>
+    <!-- navbar starts -->
     <div>
         <nav class="navbar-expand-lg navbar-dark header fixed-top">
             <div class="navContent">
 
                 <!-- Navbar content -->
-                <a class="navbar-brand" href="index.php"><img src="assets/img/logo.png" class="rounded-circle" alt="Logo" title="This is logo" width="40" height="40"> <b class="title">IMED Library Resources</b> </a>
+                <a class="navbar-brand" href="main.php"><img src="assets/img/logo.png" class="rounded-circle" alt="Logo" title="This is logo" width="40" height="40"> <b class="title">Library Management System</b> </a>
                 <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button> -->
                 <ul class="navbar-nav ml-auto">
-                    <li><a class="nav-link" href="index.php">
+                    <li><a class="nav-link" href="main.php">
                             <i class="fa fa-home" aria-hidden="true"></i> Home</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="books.php">
@@ -46,9 +47,7 @@
                     <li><a class="nav-link" href="contactus.php">
                             <i class="fa fa-address-book-o" aria-hidden="true"></i> Contact Us</a>
                     </li>
-                    
-
-
+                
 
                     <!-- Example single danger button -->
                     <li>
@@ -57,11 +56,19 @@
                             </button>
                             <div class="dropdown-menu">
                             
-                                <a class="dropdown-item" selected disabled value="">PRN : <?php echo $_SESSION['login_user']; ?></a>
+                            <?php if (isset($_SESSION['login_user'])) {
+                                  echo '<a class="dropdown-item" selected disabled value="">PRN : '. $_SESSION["login_user"] .'</a>';
+                                } ?>
                                 <a class="dropdown-item" href="profile.php">My Profile</a>
                                 <a class="dropdown-item" href="editprofile.php">Edit Profile</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a>
+                                <?php 
+                                if (isset($_SESSION['login_user'])) {
+                                    echo '<a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a>';
+                                }else{
+                                    echo '<a class="dropdown-item" href="login.php"><i class="fa fa-sign-in fa-lg"></i> Login</a>';
+                                }
+                                ?>
                             </div>
                         </div>
                     </li>
@@ -70,6 +77,3 @@
             </div>
         </nav>
     </div>
-</body>
-
-</html>
