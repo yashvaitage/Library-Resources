@@ -66,7 +66,7 @@
                                 if (isset($_SESSION['login_user'])) {
                                     echo '<a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out fa-lg"></i> Logout</a>';
                                 }else{
-                                    echo '<a class="dropdown-item" href="login.php"><i class="fa fa-sign-in fa-lg"></i> Login</a>';
+                                    echo '<a class="dropdown-item" href="index.php"><i class="fa fa-sign-in fa-lg"></i> Login</a>';
                                 }
                                 ?>
                             </div>
